@@ -59,7 +59,7 @@ class About extends Component {
         <Box backgroundColor="lightGray" padding="8">
             <Text fontSize="4xl" align="center" fontWeight="bold">Team</Text>
             <hr style={{ height: "3px", width: "180px", margin: "0 auto", background: "black" }} />
-            <br/>
+            <br />
             <Flex
                 direction={{ base: "column", lg: "row" }}
                 justifyContent="space-between"
@@ -68,7 +68,7 @@ class About extends Component {
                 {
                     this.teamInfo.map(({ image, title, discordName, funFact }) => (
                         <Box marginTop="15px" width="250px">
-                            <Image src={image} margin="0 auto" alt={`${title} profile`} objectFit='cover' width="150px" borderRadius="full"/>
+                            <Image src={image} margin="0 auto" alt={`${title} profile`} objectFit='cover' width="150px" borderRadius="full" />
                             <Text {...this.commonProps} textAlign="center" fontWeight="bold">{discordName}</Text>
                             <Text fontSize={{ base: "md", md: "lg" }} textAlign="center" fontWeight="bold">{title}</Text>
                             <Text fontSize={{ base: "md", md: "lg" }} textAlign="center">{funFact}</Text>
@@ -83,7 +83,7 @@ class About extends Component {
             <Text fontSize="4xl" align="center" fontWeight="bold">Roadmap</Text>
             <hr style={{ height: "3px", width: "180px", margin: "0 auto", background: "black" }} />
             <br />
-            <Image src={RoadmapImg} alt="roadmap" objectFit='cover' height="100%" />
+            <Image src={RoadmapImg} alt="roadmap" objectFit="cover" />
         </Box>
     )
     renderFAQ = () => {
@@ -112,21 +112,28 @@ class About extends Component {
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
-                    Where can I buy the Sol Labs?
+                    Where can I buy Sol Labs NFT?
                 </Text>
                 <Text {...commonProps}>
-                    You can buy Sol labs on (Selected marketplaces).
+                    You can buy them on (selected marketplaces).
+                </Text>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    What is the total supply?
+                </Text>
+                <Text {...commonProps}>
+                    1,111.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     What is the mint supply?
                 </Text>
                 <Text {...commonProps}>
-                    1,100.
+                    1,096.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
-                    Why is 11 lab NFTs not minted?
+                    Why are 15 Sol Labs NFTs not minted?
                 </Text>
                 <Text {...commonProps}>
                     They will be used for giveaways and collaborations.
