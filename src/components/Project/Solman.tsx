@@ -1,4 +1,4 @@
-import { Flex, Box, Text } from "../../chakra";
+import { Flex, Box } from "../../chakra";
 import Mint from "../Mint";
 
 const Solman = () => {

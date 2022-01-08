@@ -47,7 +47,7 @@ export interface HomeProps {
 }
 
 const Home = (props: HomeProps) => {
-  const [balance, setBalance] = useState<number>();
+  const [, setBalance] = useState<number>();
   const [isActive, setIsActive] = useState(false); // true when countdown completes
   const [isSoldOut, setIsSoldOut] = useState(false); // true when items remaining is zero
   const [isMinting, setIsMinting] = useState(false); // true when user got to press MINT
@@ -287,46 +287,6 @@ const Home = (props: HomeProps) => {
                 </Box>
               )
       }
-
-      {/* {!wallet && isActive ? (
-          <ConnectButton>Connect Wallet</ConnectButton>
-        ) : (
-          <Button
-            isDisabled={isSoldOut || isMinting || !isActive}
-            onClick={onMint}
-            size="md"
-            colorScheme="blue"
-            color="white"
-          >
-            {
-              isSoldOut
-                ? "SOLD OUT"
-                : isActive
-                  ? (
-                    isPassphraseValid
-                      ? (
-                        isMinting
-                          ? <CircularProgress />
-                          : "MINT"
-                      )
-                      : <Input
-                        variant="outline"
-                        placeholder="Passphrase"
-                        value={passphrase}
-                        onChange={updatePassphrase}
-                        focusBorderColor="blue"
-                        size="sm"
-                        isRequired
-                      />
-                  )
-                  : (
-                    <Counter
-                      //countDownDate={startDate}
-                      activateMint={() => setIsActive(true)}
-                    />
-                  )}
-          </Button>
-        )} */}
     </Box>
   );
 };

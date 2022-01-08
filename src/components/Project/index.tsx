@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Grid, Box, Text } from "../../chakra";
 
 const Project = () => {

@@ -15,6 +15,7 @@ class Counter extends Component<CounterProps> {
     timer: NodeJS.Timeout | undefined;
 
     componentDidMount() {
+        this.updateTime();
         this.timer = setInterval(this.updateTime, 1000);
     }
 

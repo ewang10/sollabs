@@ -1,4 +1,4 @@
-import { Text, Box, Flex, Grid, GridItem } from "../chakra";
+import { Text, Box, Flex, Grid } from "../chakra";
 import Mint from "./Mint";
 
 const Home = () => {
@@ -23,7 +23,6 @@ const Home = () => {
                     <Text align="center" fontSize={{ base: "2xl", lg: "5xl" }}>|</Text>
                     <Text align="center" fontSize={{ base: "2xl", lg: "5xl" }}>1111</Text>
                 </Grid>
-                <Text align="center" fontSize={{ base: "2xl", lg: "5xl" }}>Will Launch on ...</Text>
                 <br />
                 <Mint />
             </Flex>
