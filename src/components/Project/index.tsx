@@ -22,7 +22,7 @@ const Project = () => {
                             align="center"
                             padding={{ base: "40px", md: "50px" }}
                         >
-                            Anouncing soon...
+                            Announcing soon...
                         </Text>
                     {/* </Link> */}
                 </Box>
@@ -39,7 +39,7 @@ const Project = () => {
                             align="center"
                             padding={{ base: "40px", md: "50px" }}
                         >
-                            Anouncing soon...
+                            Announcing soon...
                         </Text>
                     {/* </Link> */}
                 </Box>
@@ -56,7 +56,7 @@ const Project = () => {
                             align="center"
                             padding={{ base: "20px", md: "50px" }}
                         >
-                            Anouncing soon...
+                            Announcing soon...
                         </Text>
                     {/* </Link> */}
                 </Box>

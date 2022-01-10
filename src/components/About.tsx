@@ -68,7 +68,7 @@ class About extends Component {
                 {
                     this.teamInfo.map(({ image, title, discordName, funFact }) => (
                         <Box marginTop="15px" width="250px">
-                            <Image src={image} margin="0 auto" alt={`${title} profile`} objectFit='cover' width="150px" borderRadius="full" />
+                            <Image src={image} margin="0 auto" alt={`${title} profile`} objectFit='cover' width="150px" borderRadius="20" />
                             <Text {...this.commonProps} textAlign="center" fontWeight="bold">{discordName}</Text>
                             <Text fontSize={{ base: "md", md: "lg" }} textAlign="center" fontWeight="bold">{title}</Text>
                             <Text fontSize={{ base: "md", md: "lg" }} textAlign="center">{funFact}</Text>
