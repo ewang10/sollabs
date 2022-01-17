@@ -20,7 +20,7 @@ const Project = () => {
                             fontWeight="bold"
                             fontSize="3xl"
                             align="center"
-                            padding={{ base: "40px", md: "50px" }}
+                            padding={{ base: "20px", md: "50px" }}
                         >
                             Announcing soon...
                         </Text>
@@ -37,7 +37,7 @@ const Project = () => {
                             fontWeight="bold"
                             fontSize="3xl"
                             align="center"
-                            padding={{ base: "40px", md: "50px" }}
+                            padding={{ base: "20px", md: "50px" }}
                         >
                             Announcing soon...
                         </Text>
