@@ -320,13 +320,7 @@ const Home = (props: HomeProps) => {
                         : undefined,
                   )}
                   style={{ justifyContent: 'flex-end' }}
-                  status={
-                    !isActive || isSoldOut
-                      ? 'COMPLETED'
-                      : isPresale
-                        ? 'PRESALE'
-                        : 'LIVE'
-                  }
+                  onComplete={refreshCandyMachineState}
                 />
               )
       }
