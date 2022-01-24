@@ -5,19 +5,17 @@ import NotFound from "./NotFound";
 import Project from "./Project";
 import Solman from "./Project/Solman";
 import About from "./About";
+import MintCompleted from "./Mint/MintCompleted";
 
-class MainComponent extends Component {
-    render() {
-        return (
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Project />} />
-                <Route path="/projects/solman" element={<Solman />} />
-                <Route path="/about" element={<About />} />
-                <Route path="*" element={<NotFound />} />
-            </Routes>
-        )
-    }
-}
+const MainComponent = () => (
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/projects/solman" element={<Solman />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/mint_completed" element={<MintCompleted />} />
+        <Route path="*" element={<NotFound />} />
+    </Routes>
+);
 
 export default MainComponent;

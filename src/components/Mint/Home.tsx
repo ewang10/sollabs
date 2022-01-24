@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { CircularProgress, Snackbar, Container } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
@@ -67,6 +68,7 @@ const Home = (props: HomeProps) => {
   const [passphrase, setPassphrase] = useState("");
   const [isPassphraseValid, setIsPassphraseValid] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const navigate = useNavigate();
 
   const rpcUrl = props.rpcHost;
   const wallet = useWallet();
@@ -149,7 +151,8 @@ const Home = (props: HomeProps) => {
             message: 'Congratulations! Mint succeeded!',
             severity: 'success',
           });
-          setTimeout(onModalClose, 5000);
+          onModalClose();
+          navigate("/mint_completed");
         } else {
           setAlertState({
             open: true,

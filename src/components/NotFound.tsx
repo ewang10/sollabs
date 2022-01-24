@@ -9,6 +9,6 @@ const NotFound = () => (
             Otherwise, the page has been moved or no longer exists.
         </Text>
     </Box>
-  )
+  );
   
   export default NotFound;
