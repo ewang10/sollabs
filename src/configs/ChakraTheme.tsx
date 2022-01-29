@@ -16,7 +16,7 @@ const ChakraTheme = {
             'html, body': {
                 backgroundColor: 'white',
                 color: '#56565A',
-                fontFamily: 'Yu gothic'
+                fontFamily: 'Montserrat'
             }
         }
     },
@@ -34,7 +34,7 @@ const ChakraTheme = {
         '3xl': '28px',
         '4xl': '30px',
         '5xl': '36px',
-        '6xl': '50px'
+        '6xl': '60px'
     },
     colors: {
         transparent: 'transparent',
@@ -42,6 +42,7 @@ const ChakraTheme = {
         white: '#ffffff',
         lightGray: '#F6F6F7',
         blue: {
+            100: '#b7fbfb',
             500: '#45E3FF'
         }
     },

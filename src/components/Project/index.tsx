@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Grid, Box, Text } from "../../chakra";
 
 const Project = () => {
@@ -11,19 +12,53 @@ const Project = () => {
             <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }} gap={{ base: '10', md: '20' }}>
                 <Box
                     {...commonProps}
-                    background="url('/images/Coming-Soon.png') no-repeat"
+                    background="url('/images/BuddyBotsProfile.png') no-repeat"
                     backgroundSize="contain"
                     backgroundPosition="bottom"
                 >
-                    {/* <Link to="/projects/solman"> */}
+                    <Link to="/projects/buddy_bots">
                         <Text
                             fontWeight="bold"
                             fontSize="3xl"
                             align="center"
                             padding={{ base: "20px", md: "50px" }}
+                            backgroundColor="blue.100"
+                            color="white"
                         >
-                            Announcing soon...
+                            Buddy Bots
                         </Text>
+                    </Link>
+                </Box>
+                <Box
+                    {...commonProps}
+                    background="url('/images/Coming-Soon.png') no-repeat"
+                    backgroundSize="contain"
+                    backgroundPosition="bottom"
+                >
+                    <Text
+                        fontWeight="bold"
+                        fontSize="3xl"
+                        align="center"
+                        padding={{ base: "20px", md: "50px" }}
+                    >
+                        Announcing soon...
+                    </Text>
+                </Box>
+                <Box
+                    {...commonProps}
+                    background="url('/images/Coming-Soon.png') no-repeat"
+                    backgroundSize="contain"
+                    backgroundPosition="bottom"
+                >
+                    {/* <Link to="/projects/solman"> */}
+                    <Text
+                        fontWeight="bold"
+                        fontSize="3xl"
+                        align="center"
+                        padding={{ base: "20px", md: "50px" }}
+                    >
+                        Announcing soon...
+                    </Text>
                     {/* </Link> */}
                 </Box>
                 <Box
@@ -33,31 +68,14 @@ const Project = () => {
                     backgroundPosition="bottom"
                 >
                     {/* <Link to="/projects/solman"> */}
-                        <Text
-                            fontWeight="bold"
-                            fontSize="3xl"
-                            align="center"
-                            padding={{ base: "20px", md: "50px" }}
-                        >
-                            Announcing soon...
-                        </Text>
-                    {/* </Link> */}
-                </Box>
-                <Box
-                    {...commonProps}
-                    background="url('/images/Coming-Soon.png') no-repeat"
-                    backgroundSize="contain"
-                    backgroundPosition="bottom"
-                >
-                    {/* <Link to="/projects/solman"> */}
-                        <Text
-                            fontWeight="bold"
-                            fontSize="3xl"
-                            align="center"
-                            padding={{ base: "20px", md: "50px" }}
-                        >
-                            Announcing soon...
-                        </Text>
+                    <Text
+                        fontWeight="bold"
+                        fontSize="3xl"
+                        align="center"
+                        padding={{ base: "20px", md: "50px" }}
+                    >
+                        Announcing soon...
+                    </Text>
                     {/* </Link> */}
                 </Box>
             </Grid >

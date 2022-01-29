@@ -3,6 +3,8 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import MainComponent from "./components/MainComponent";
 import ChakraTheme from "./configs/ChakraTheme";
+// font
+import "@fontsource/montserrat";
 
 const App = () => {
   return (

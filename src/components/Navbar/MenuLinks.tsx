@@ -1,6 +1,6 @@
 import { Box, Stack, Link } from '../../chakra';
 import MenuItem from './MenuItem';
-import { FaTwitter } from "react-icons/fa";
+import { FaTwitter, FaDiscord } from "react-icons/fa";
 
 interface propsType {
     isOpen: boolean
@@ -24,11 +24,21 @@ const MenuLinks = ({ isOpen }: propsType) => {
                 {
                     !isOpen
                         ? (
-                            <Link href="https://twitter.com/SolLabsNFT" isExternal={true}>
-                                <FaTwitter />
-                            </Link>
+                            <>
+                                <Link href="https://twitter.com/SolLabsNFT" isExternal={true}>
+                                    <FaTwitter />
+                                </Link>
+                                <Link href="https://discord.gg/KDG2uKn9v4" isExternal={true}>
+                                    <FaDiscord />
+                                </Link>
+                            </>
                         )
-                        : <MenuItem text="Twitter" externalLink="https://twitter.com/SolLabsNFT" />
+                        : (
+                            <>
+                                <MenuItem text="Twitter" externalLink="https://twitter.com/SolLabsNFT" />
+                                <MenuItem text="Discord" externalLink="https://discord.gg/KDG2uKn9v4" />
+                            </>
+                        )
                 }
             </Stack>
         </Box>
