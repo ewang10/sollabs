@@ -134,7 +134,7 @@ class About extends Component {
                 </Text>
                 <Text>
                     We will make it deflationary by announcing the royalties and net income that will go
-                    into The Grant. The Grant will buy the cheapest token available from the respective
+                    into The Grant. The Grant will buy the cheapest token available from each respective
                     Experiment (Sweeping the floor).
                 </Text>
                 <br />

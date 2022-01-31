@@ -3,13 +3,14 @@ import MenuItem from './MenuItem';
 import { FaTwitter, FaDiscord } from "react-icons/fa";
 
 interface propsType {
-    isOpen: boolean
+    isOpen?: boolean,
+    isFooter?: boolean
 };
 
-const MenuLinks = ({ isOpen }: propsType) => {
+const MenuLinks = ({ isOpen, isFooter }: propsType) => {
     return (
         <Box
-            display={{ base: isOpen ? "block" : "none", md: "block" }}
+            display={{ base: isOpen || isFooter ? "block" : "none", md: "block" }}
             flexBasis={{ base: "100%", md: "auto" }}
         >
             <Stack
