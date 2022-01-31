@@ -6,7 +6,7 @@ import {
     UnorderedList,
     ListItem
 } from "../../chakra";
-import BuddyBotsImg from "../../images/projects/BuddyBotsCollage.png";
+import BuddyBotsImg from "../../images/BuddyBotsCollage.png";
 
 class BuddyBots extends Component {
     get commonProps() {
@@ -22,7 +22,7 @@ class BuddyBots extends Component {
                 <Text fontWeight="bold" {...commonProps}>
                     What is Buddy Bots?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     The Mad Scientists from Sol Labs got lonely while working on deflationary Experiments,
                     therefore 200 Buddy Bots were created. Buddy Bots can be minted for free by anybody
                     with a Solana wallet.
@@ -31,14 +31,14 @@ class BuddyBots extends Component {
                 <Text fontWeight="bold" {...commonProps}>
                     The total supply?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     200
                 </Text>
                 <UnorderedList>
-                    <ListItem {...commonProps} marginLeft="30px">
+                    <ListItem marginLeft="30px">
                         180 is the mint supply.
                     </ListItem>
-                    <ListItem {...commonProps} marginLeft="30px">
+                    <ListItem marginLeft="30px">
                         20 is used for giveaways or collaborations.
                     </ListItem>
                 </UnorderedList>
@@ -46,14 +46,14 @@ class BuddyBots extends Component {
                 <Text fontWeight="bold" {...commonProps}>
                     Mint price?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     0 (Just have enough for the gas fee)
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     Utilities?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     As Sol Labs grows as a community, the privileges will grow as well for Buddy Bots.
                 </Text>
                 <br />
