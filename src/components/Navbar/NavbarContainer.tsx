@@ -17,8 +17,6 @@ const NavbarContainer = ({ children }: propsType) => {
             p={8}
             maxWidth='1200px'
             marginX='auto'
-        //bg={["primary.500", "primary.500", "transparent", "transparent"]}
-        //color={["white", "white", "primary.700", "primary.700"]}
         >
             {children}
         </Flex>

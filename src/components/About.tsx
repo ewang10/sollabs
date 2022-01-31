@@ -45,10 +45,10 @@ class About extends Component {
                 <hr style={{ height: "3px", width: "180px", margin: "0 auto", background: "black" }} />
                 <br />
                 <Text fontSize={{ base: "md", md: "lg" }}>
-                    We have been part of the NFT community for some time now and we truly believe it is a 
-                    great place to create something amazing. Our developers and entrepreneurs want to create 
-                    a brand to symbolize what NFT can be. We see NFTas a digital canvas that encapsulates 
-                    our limitless imaginations and allows us to use it as a vehicle to create quality 
+                    We have been part of the NFT community for some time now and we truly believe it is a
+                    great place to create something amazing. Our developers and entrepreneurs want to create
+                    a brand to symbolize what NFT can be. We see NFT as a digital canvas that encapsulates
+                    our limitless imaginations and allows us to use it as a vehicle to create quality
                     projects and simultaneously build a prosperous community.
                 </Text>
             </Box>
@@ -107,25 +107,25 @@ class About extends Component {
                 <br />
                 <Text>
                     We are here to focus on long-term play. As people get invested more and more
-                    into us. The short and medium term holders will eventually be bought out.
+                    into us the short and medium term holders will eventually be bought out.
                     Diamond hands will be benefiting greatly for understanding our vision.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
-                    When is an Experiment?
+                    What is an Experiment?
                 </Text>
                 <Text>
                     An Experiment created and worked on by us and anyone we partner with will be
-                    deflationary by default. It will mainly have a focus type of business,
+                    deflationary by default. It will mainly have a business type of focus,
                     whether it be merchandising, clothing, transportation and warehousing, or technology.
                     We plan to take a portion of the royalties and net income from the business to fund
                     {' '}<b>The Grant</b>.
                 </Text>
                 <br />
                 <Text>
-                    We already have in the works some Experiments. To further increase the value of these
+                    We already have some Experiments in the works. To further increase the value of these
                     Experiment NFTs, we plan to make sure our mint launches end within a timeframe.
-                    For people who are late to this will miss out. For diamond hands that understand how our
+                    People who are late to this will miss out. For diamond hands that understand how our
                     process will work, will benefit immensely in the long-term.
                 </Text>
                 <br />
@@ -154,14 +154,14 @@ class About extends Component {
                     When is mint date?
                 </Text>
                 <Text>
-                    2/20/22 (The time will be announced in discord and twitter).
+                    2/20/22 (Subject to change, Follow Twitter or join Discord for up to date time)
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
-                    Where can I buy Sol Labs NFT?
+                    Where can I buy Sol Labs NFTs?
                 </Text>
                 <Text>
-                    We would prefer to get listed on Magiceden and Solanary.
+                    We would prefer to get listed on Magiceden and Solanart.
                     If requested for more, we will consider.
                 </Text>
                 <br />
