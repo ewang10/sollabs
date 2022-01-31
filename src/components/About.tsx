@@ -14,7 +14,7 @@ class About extends Component {
                 {
                     image: MemberOneImg,
                     title: "Developer",
-                    discordName: "BigBoss",
+                    discordName: "Kuu",
                     funFact: "I love sushi."
                 },
                 {
@@ -97,52 +97,100 @@ class About extends Component {
                 <Text fontWeight="bold" {...commonProps}>
                     What is Sol Labs?
                 </Text>
-                <Text {...commonProps}>
-                    Sol Labs are an exclusive collection of 1,111 lab NFTs on Solana.
-                    We are working with developers, NFT collectors, and entrepreneurs
-                    to bring a change to the NFT community. This project is designed
-                    to kickstart a new way of utilizing NFTs.
+                <Text>
+                    This is an early access project that will allow holders to participate
+                    in upcoming Experiments. We are an organization that focuses on creating
+                    deflationary <b>Experiments</b>, which will be created and worked on one
+                    after another. We plan to build a portfolio like no other in the Solana NFT
+                    community, and every holder that is with us will benefit at either a micro
+                    or macro scale.
+                </Text>
+                <br />
+                <Text>
+                    We are here to focus on long-term play. As people get invested more and more
+                    into us. The short and medium term holders will eventually be bought out.
+                    Diamond hands will be benefiting greatly for understanding our vision.
+                </Text>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    When is an Experiment?
+                </Text>
+                <Text>
+                    An Experiment created and worked on by us and anyone we partner with will be
+                    deflationary by default. It will mainly have a focus type of business,
+                    whether it be merchandising, clothing, transportation and warehousing, or technology.
+                    We plan to take a portion of the royalties and net income from the business to fund
+                    {' '}<b>The Grant</b>.
+                </Text>
+                <br />
+                <Text>
+                    We already have in the works some Experiments. To further increase the value of these
+                    Experiment NFTs, we plan to make sure our mint launches end within a timeframe.
+                    For people who are late to this will miss out. For diamond hands that understand how our
+                    process will work, will benefit immensely in the long-term.
+                </Text>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    How will we make it deflationary?
+                </Text>
+                <Text>
+                    We will make it deflationary by announcing the royalties and net income that will go
+                    into The Grant. The Grant will buy the cheapest token available from the respective
+                    Experiment (Sweeping the floor).
+                </Text>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    What is The Grant?
+                </Text>
+                <Text>
+                    A portion of the revenue stream from each respective Experiment including 40% of royalties
+                    from market sales are deposited into “The Grant “(account). As soon as The Grant accumulates
+                    enough funding it will award Experiments for their valuable data (Experiment Project NFTs
+                    Collection) to continue the research. This action will sweep the floor through Solana
+                    marketplaces, burning the tokens and reducing the overall supply. This will in turn create
+                    deflationary Experiments and reward diamond hands!
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     When is mint date?
                 </Text>
-                <Text {...commonProps}>
-                    TBD.
+                <Text>
+                    2/20/22 (The time will be announced in discord and twitter).
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     Where can I buy Sol Labs NFT?
                 </Text>
-                <Text {...commonProps}>
-                    You can buy them on (selected marketplaces).
+                <Text>
+                    We would prefer to get listed on Magiceden and Solanary. 
+                    If requested for more, we will consider.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     What is the total supply?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     1,111.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     What is the mint supply?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     1,096.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     Why are 15 Sol Labs NFTs not minted?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     They will be used for giveaways and collaborations.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     What is the mint price?
                 </Text>
-                <Text {...commonProps}>
+                <Text>
                     1.25 SOL.
                 </Text>
             </Box>

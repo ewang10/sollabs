@@ -6,7 +6,7 @@ import {
     UnorderedList,
     ListItem
 } from "../../chakra";
-import BuddyBotsImg from "../../images/projects/buddyBotsCollage.png";
+import BuddyBotsImg from "../../images/projects/BuddyBotsCollage.png";
 
 class BuddyBots extends Component {
     get commonProps() {

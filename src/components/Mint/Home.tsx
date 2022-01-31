@@ -303,16 +303,23 @@ const Home = (props: HomeProps) => {
               </Box>
             )
             : isActive
-              ? !isPassphraseValid && <Input
-                variant="outline"
-                placeholder="Passphrase"
-                value={passphrase}
-                onChange={updatePassphrase}
-                focusBorderColor="blue.500"
-                size="lg"
-                autoFocus
-                isRequired
-              />
+              ? !isPassphraseValid && (
+                <>
+                  <Input
+                    variant="outline"
+                    placeholder="Passphrase"
+                    value={passphrase}
+                    onChange={updatePassphrase}
+                    focusBorderColor="blue.500"
+                    size="lg"
+                    autoFocus
+                    isRequired
+                  />
+                  <Text align="center">
+                    <b>passphrase:</b> {process.env.REACT_APP_MINT_PASSPHRASE}
+                  </Text>
+                </>
+              )
               : (
                 <MintCountdown
                   date={toDate(
