@@ -45,12 +45,11 @@ class About extends Component {
                 <hr style={{ height: "3px", width: "180px", margin: "0 auto", background: "black" }} />
                 <br />
                 <Text fontSize={{ base: "md", md: "lg" }}>
-                    We have been part of the NFT community for some time now and we truly believe
-                    it is a great place to create something amazing. Our developers and entrepreneurs
-                    want to create a brand to symbolize what NFT can be, a space to help others.
-                    We see NFT as a digital canvas that encapsulates our limitless imaginations and
-                    allows us to use it as a vehicle to create quality projects that will change
-                    the way NFT is utilized, and simultaneously build a prosperous community.
+                    We have been part of the NFT community for some time now and we truly believe it is a 
+                    great place to create something amazing. Our developers and entrepreneurs want to create 
+                    a brand to symbolize what NFT can be. We see NFTas a digital canvas that encapsulates 
+                    our limitless imaginations and allows us to use it as a vehicle to create quality 
+                    projects and simultaneously build a prosperous community.
                 </Text>
             </Box>
         </Grid>
@@ -162,7 +161,7 @@ class About extends Component {
                     Where can I buy Sol Labs NFT?
                 </Text>
                 <Text>
-                    We would prefer to get listed on Magiceden and Solanary. 
+                    We would prefer to get listed on Magiceden and Solanary.
                     If requested for more, we will consider.
                 </Text>
                 <br />
