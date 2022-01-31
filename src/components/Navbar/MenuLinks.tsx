@@ -29,7 +29,7 @@ const MenuLinks = ({ isOpen, isFooter }: propsType) => {
                                 <Link href="https://twitter.com/SolLabsNFT" isExternal={true}>
                                     <FaTwitter />
                                 </Link>
-                                <Link href="https://discord.gg/KDG2uKn9v4" isExternal={true}>
+                                <Link href="https://discord.gg/WScwq5WkWB" isExternal={true}>
                                     <FaDiscord />
                                 </Link>
                             </>
@@ -37,7 +37,7 @@ const MenuLinks = ({ isOpen, isFooter }: propsType) => {
                         : (
                             <>
                                 <MenuItem text="Twitter" externalLink="https://twitter.com/SolLabsNFT" />
-                                <MenuItem text="Discord" externalLink="https://discord.gg/KDG2uKn9v4" />
+                                <MenuItem text="Discord" externalLink="https://discord.gg/WScwq5WkWB" />
                             </>
                         )
                 }
