@@ -1,16 +1,9 @@
-import { Text, Box, Flex, Grid, GridItem } from "../chakra";
+import { Text, Flex, Grid, GridItem } from "../chakra";
 import Mint from "./Mint";
+import BubbleBackground from "./BubbleBackgroud";
 
 const Home = () => (
-    <Box
-        position="relative"
-        backgroundImage={{ base: "url('/images/MobileHome.png')", lg: "url('/images/Home2.png')" }}
-        backgroundRepeat="no-repeat"
-        backgroundSize="contain"
-        backgroundPosition="center"
-        width="100vw"
-        height="100vh"
-    >
+    <BubbleBackground>
         <Flex justifyContent="center" alignItems="center" direction="column" height={{ base: "50vh", lg: "100vh" }}>
             <Text align="center" fontWeight="bold" fontSize={{ base: "5xl", lg: "6xl" }}>Buddy Bots</Text>
             <Text as='i' align="center" fontSize={{ base: "md", lg: "2xl" }} width={{ base: "350px", md: "600px" }}>
@@ -35,7 +28,7 @@ const Home = () => (
             <br />
             <Mint />
         </Flex>
-    </Box>
+    </BubbleBackground>
 );
 
 export default Home;

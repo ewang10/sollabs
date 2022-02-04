@@ -1,8 +1,12 @@
+import { useLocation } from 'react-router-dom'
 import { Flex, Box } from '../chakra';
 import MenuLinks from './Navbar/MenuLinks';
 
 const Footer = () => {
-    return (
+    const { pathname } = useLocation();
+
+    return pathname !== "/" 
+    ? (
         <Box backgroundColor="lightGray">
             <Flex
                 as='footer'
@@ -18,6 +22,7 @@ const Footer = () => {
             </Flex>
         </Box>
     )
+    : <></>
 }
 
 export default Footer;
