@@ -4,8 +4,14 @@ import MenuLinks from './Navbar/MenuLinks';
 
 const Footer = () => {
     const { pathname } = useLocation();
+    const show = [
+        "/projects",
+        "/projects/buddy_bots",
+        "/projects/sol_man",
+        "/about"
+    ].includes(pathname);
 
-    return pathname !== "/" 
+    return show
     ? (
         <Box backgroundColor="lightGray">
             <Flex

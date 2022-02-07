@@ -44,6 +44,9 @@ const ChakraTheme = {
         blue: {
             100: '#b7fbfb',
             500: '#45E3FF'
+        },
+        pink: {
+            100: '#ffd4f1'
         }
     },
     breakPoints

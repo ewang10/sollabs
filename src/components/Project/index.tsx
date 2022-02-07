@@ -32,21 +32,25 @@ const Project = () => {
                     </Link>
                 </div>
                 <div className="project">
-                    <Box
-                        {...commonProps}
-                        background="url('/images/Coming-Soon.png') no-repeat"
-                        backgroundSize="contain"
-                        backgroundPosition="bottom"
-                    >
-                        <Text
-                            fontWeight="bold"
-                            fontSize="3xl"
-                            align="center"
-                            padding={{ base: "20px", md: "50px" }}
+                    <Link to="/projects/sol_man">
+                        <Box
+                            {...commonProps}
+                            background="url('/images/SolManProfile.png') no-repeat"
+                            backgroundSize="contain"
+                            backgroundPosition="bottom"
                         >
-                            Announcing soon...
-                        </Text>
-                    </Box>
+                            <Text
+                                fontWeight="bold"
+                                fontSize="3xl"
+                                align="center"
+                                padding={{ base: "20px", md: "50px" }}
+                                backgroundColor="pink.100"
+                                color="white"
+                            >
+                                Sol Man
+                            </Text>
+                        </Box>
+                    </Link>
                 </div>
                 <div className="project">
                     <Box
