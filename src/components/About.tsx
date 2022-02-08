@@ -1,11 +1,14 @@
 import { Component } from "react";
-import { Text, Box, Image, Flex, Grid } from "../chakra";
+import { Link } from "react-router-dom";
+import { Text, Box, Image, Flex, Grid, List, ListItem } from "../chakra";
 import MissionImg from "../images/Mission.png";
 import RoadmapImg from "../images/Roadmap.png";
 import MemberOneImg from "../images/Member1.png";
 import MemberTwoImg from "../images/Member2.png";
 import MemberThreeImg from "../images/Member3.png";
-
+import TicketAttribute from "../images/TicketAttribute.png";
+import SolanaAttribute from "../images/SolanaAttribute.png";
+import ExperimentAttribute from "../images/ExperimentAttribute.png";
 
 class About extends Component {
     get teamInfo() {
@@ -36,6 +39,11 @@ class About extends Component {
         return {
             fontSize: { base: "lg", md: "xl" }
         };
+    }
+    get listCommonProps() {
+        return {
+            marginLeft: "30px"
+        }
     }
     renderMission = () => (
         <Grid templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)' }} gap={{ base: '0', md: '20' }} paddingBottom="8">
@@ -86,7 +94,7 @@ class About extends Component {
         </Box>
     )
     renderFAQ = () => {
-        const { commonProps } = this;
+        const { commonProps, listCommonProps } = this;
 
         return (
             <Box backgroundColor="lightGray" padding="8">
@@ -103,12 +111,85 @@ class About extends Component {
                     after another. We plan to build a portfolio like no other in the Solana NFT
                     community, and every holder that is with us will benefit at either a micro
                     or macro scale.
-                </Text>
-                <br />
-                <Text>
+                    <br />
+                    <br />
                     We are here to focus on long-term play. As people get invested more and more
                     into us the short and medium term holders will eventually be bought out.
                     Diamond hands will be benefiting greatly for understanding our vision.
+                </Text>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    Utilities?
+                </Text>
+                <Text>
+                    The type of utility holders have is based on the product attribute you
+                    receive on your NFT. All Sol Labs NFT holders will be on the whitelist
+                    for Sol Man.
+                    <br />
+                    <br />
+                    <List>
+                        <ListItem {...listCommonProps}>
+                            <Text fontWeight="bold">Ticket attribute:</Text>
+                            <br />
+                            <Image src={TicketAttribute} alt="ticket attribute" objectFit='cover' width="150px" borderRadius="20" />
+                            <br />
+                            <Text>
+                                Those holding onto the Ticket development attribute will be whitelisted
+                                to all Experiment Projects of all NFTs created from Sol Labs.
+                            </Text>
+                            <br />
+                            <Text>
+                                NFT must be delisted in order to join the whitelist!
+                            </Text>
+                            <br />
+                            <Text as="em">
+                                * The Sol Labs NFTs with the Ticket development will be the only
+                                way people can get onto the whitelist for future Experiments.
+                                People who have OG roles will get level 1 (25%) whitelist,
+                                while people who have the Sol Labs NFT with the Ticket development
+                                will get level 2 whitelist (48%).
+                            </Text>
+                        </ListItem>
+                        <br />
+                        <ListItem {...listCommonProps}>
+                            <Text fontWeight="bold">Experiment attribute:</Text>
+                            <br />
+                            <Image src={ExperimentAttribute} alt="experiment attribute" objectFit='cover' width="150px" borderRadius="20" />
+                            <br />
+                            <Text>
+                                Those holding onto the Experiment development attribute will receive an
+                                airdrop of all Experiment Project Token created from Sol Labs.
+                            </Text>
+                            <br />
+                            <Text>
+                                NFT must be delisted in order to receive airdrop!
+                            </Text>
+                        </ListItem>
+                        <br />
+                        <ListItem {...listCommonProps}>
+                            <Text fontWeight="bold">Solana attribute:</Text>
+                            <br />
+                            <Image src={SolanaAttribute} alt="solana attribute" objectFit='cover' width="150px" borderRadius="20" />
+                            <br />
+                            <Text>
+                                Those holding onto the Solana development attribute will
+                                receive an airdrop of our {" "}
+                                <Link to="/projects/sol_man" className="link">Sol Man</Link> 
+                                {" "} (Core Utility NFT).
+                                Holders with this attribute also have the option of selling
+                                it back at mint price or increased value as new projects launch.
+                                The value of this NFT will increase by 1 sol with every project
+                                launch, including Experiment Projects and Test Projects.
+                                Any of these NFTs found at the valued price will be bought
+                                within a week.
+                            </Text>
+                            <br />
+                            <Text as="em">
+                                * Sol Man will be given to the holder before Sol Man mint launch.
+                                Must be delisted to receive!
+                            </Text>
+                        </ListItem>
+                    </List>
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
@@ -154,7 +235,7 @@ class About extends Component {
                     When is mint date?
                 </Text>
                 <Text>
-                    2/20/22 (Subject to change, Follow Twitter or join Discord for up to date time)
+                    February 18th 2022 23:00 PST / 07:00 +1 UTC.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>

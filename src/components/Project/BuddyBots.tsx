@@ -4,7 +4,8 @@ import {
     Box,
     Text,
     UnorderedList,
-    ListItem
+    ListItem,
+    Link
 } from "../../chakra";
 import BuddyBotsImg from "../../images/BuddyBotsCollage.png";
 
@@ -52,7 +53,7 @@ class BuddyBots extends Component {
                     Mint price?
                 </Text>
                 <Text>
-                    0 (Just have enough for the gas fee).
+                    Finished minting.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
@@ -63,8 +64,8 @@ class BuddyBots extends Component {
                         Weekly lotto will be held for Buddy Bots holders.
                     </ListItem>
                     <ListItem {...listCommonProps}>
-                    10 Buddy Bots will be chosen for a chance to win 0.1 SOL per week 
-                    (Must be <b><u>delisted</u></b>!)
+                        10 Buddy Bots will be chosen for a chance to win 0.1 SOL per week
+                        (Must be <b><u>delisted</u></b>!)
                     </ListItem>
                     <ListItem {...listCommonProps}>
                         Buddy Bots will be cycled through until they have all been picked.
@@ -73,9 +74,8 @@ class BuddyBots extends Component {
                         52 SOL will go into the lottery funded by Sol Labs mint launch.
                     </ListItem>
                     <ListItem {...listCommonProps}>
-                        A minimum of 2 Buddy Bots will be chosen in the weekly lotto,
-                        however there could be an increase of Buddy Bots participants
-                        per week based on how well royalties have done.
+                        There could be an increase of Buddy Bots participants per week based
+                        on how well royalties have done.
                     </ListItem>
                     <ListItem {...listCommonProps}>
                         Pre-sale access to all Experiments.
@@ -109,6 +109,7 @@ class BuddyBots extends Component {
     }
     render() {
         const { commonProps, renderFAQ } = this;
+        const magicEdenLink = "https://magiceden.io/marketplace/buddy_bots";
 
         return (
             <Box px={{ base: '8', md: '40' }} paddingBottom="8" maxWidth='1200px' marginX='auto'>
@@ -118,6 +119,10 @@ class BuddyBots extends Component {
                 <Text align="left" {...commonProps}>
                     Feeling lonely?? Do not fret, Buddy Bots are here to keep you company!
                     Bring them with you on a journey of limitless potential with Sol Labs!!
+                    <br />
+                    <br />
+                    Get your Buddy Bots from {" "}
+                    <Link color="blue.500" href={magicEdenLink} isExternal><b>Magic Eden</b></Link>.
                 </Text>
                 <br />
                 <br />
