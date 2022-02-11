@@ -113,10 +113,9 @@ class About extends Component {
                     or macro scale.
                     <br />
                     <br />
-                    We are here to focus on long-term play. Diamond hands will be benefiting
-                    greatly for understanding our vision. Sol Labs NFT is meant to give control
-                    to the early adopters as they will be the only ones with the power to be in
-                    future whitelists
+                    We are here to focus on long-term play. Diamond hands who understand our vision will 
+                    benefit greatly from this. Sol Labs NFT is meant to give control to the early adopters 
+                    as they will be the only ones with the power to be in future whitelists.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
