@@ -113,9 +113,10 @@ class About extends Component {
                     or macro scale.
                     <br />
                     <br />
-                    We are here to focus on long-term play. As people get invested more and more
-                    into us the short and medium term holders will eventually be bought out.
-                    Diamond hands will be benefiting greatly for understanding our vision.
+                    We are here to focus on long-term play. Diamond hands will be benefiting
+                    greatly for understanding our vision. Sol Labs NFT is meant to give control
+                    to the early adopters as they will be the only ones with the power to be in
+                    future whitelists
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
@@ -174,7 +175,7 @@ class About extends Component {
                             <Text>
                                 Those holding onto the Solana development attribute will
                                 receive an airdrop of our {" "}
-                                <Link to="/projects/sol_man" className="link">Sol Man</Link> 
+                                <Link to="/projects/sol_man" className="link">Sol Man</Link>
                                 {" "} (Core Utility NFT).
                                 Holders with this attribute also have the option of selling
                                 it back at mint price or increased value as new projects launch.
