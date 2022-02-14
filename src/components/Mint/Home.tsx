@@ -214,6 +214,7 @@ const Home = (props: HomeProps) => {
     gatekeeper
   } = candyMachine?.state || {};
 
+
   return (
     <Box>
       {
