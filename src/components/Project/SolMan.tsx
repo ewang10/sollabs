@@ -61,7 +61,7 @@ class SolMan extends Component {
                     Utilities?
                 </Text>
                 <Text>
-                    20% accrued from each Experiment’s mint launch and 50% royalties earned will
+                    10% accrued from each Experiment’s mint launch and 50% royalties earned will
                     go into Lost Soul fund.
                 </Text>
                 <br />

@@ -242,6 +242,7 @@ class About extends Component {
                     to both The Lost Soul fund and the team wallet.
                 </Text>
                 <br />
+                <br />
                 <Text fontWeight="bold" {...commonProps}>
                     What is an Experiment?
                 </Text>
