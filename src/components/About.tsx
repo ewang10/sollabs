@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
-import { Text, Box, Image, Flex, Grid, List, ListItem } from "../chakra";
+import { Text, Box, Image, Flex, Grid, List, ListItem, UnorderedList } from "../chakra";
 import MissionImg from "../images/Mission.png";
 import RoadmapImg from "../images/Roadmap.png";
 import MemberOneImg from "../images/Member1.png";
@@ -113,8 +113,8 @@ class About extends Component {
                     or macro scale.
                     <br />
                     <br />
-                    We are here to focus on long-term play. Diamond hands who understand our vision will 
-                    benefit greatly from this. Sol Labs NFT is meant to give control to the early adopters 
+                    We are here to focus on long-term play. Diamond hands who understand our vision will
+                    benefit greatly from this. Sol Labs NFT is meant to give control to the early adopters
                     as they will be the only ones with the power to be in future whitelists.
                 </Text>
                 <br />
@@ -122,6 +122,10 @@ class About extends Component {
                     Utilities?
                 </Text>
                 <Text>
+                    10% accrued from each Experiment’s mint launch and 50% royalties earned
+                    will go into Lost Soul fund.
+                    <br />
+                    <br />
                     The type of utility holders have is based on the product attribute you
                     receive on your NFT. All Sol Labs NFT holders will be on the whitelist
                     for Sol Man.
@@ -175,13 +179,20 @@ class About extends Component {
                                 Those holding onto the Solana development attribute will
                                 receive an airdrop of our {" "}
                                 <Link to="/projects/sol_man" className="link">Sol Man</Link>
-                                {" "} (Core Utility NFT).
-                                Holders with this attribute also have the option of selling
-                                it back at mint price or increased value as new projects launch.
-                                The value of this NFT will increase by 1 sol with every project
-                                launch, including Experiment Projects and Test Projects.
-                                Any of these NFTs found at the valued price will be bought
-                                within a week.
+                                {" "} (Core Utility NFT).The value of this NFT will increase
+                                by 0.5 SOL with every project launch, including Experiment
+                                Projects and Test Projects.
+                                <br />
+                                <UnorderedList>
+                                    <ListItem {...listCommonProps}>
+                                        4 Buddy Bots will be chosen for a chance to win 0.1 SOL
+                                        per week (Must be delisted!)
+                                    </ListItem>
+                                    <ListItem {...listCommonProps}>
+                                        A portion of sales from Sol Labs mint launch will go into
+                                        the lottery fund.
+                                    </ListItem>
+                                </UnorderedList>
                             </Text>
                             <br />
                             <Text as="em">
@@ -190,6 +201,45 @@ class About extends Component {
                             </Text>
                         </ListItem>
                     </List>
+                </Text>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    Mint launch breakdown:
+                </Text>
+                <UnorderedList>
+                    <ListItem {...listCommonProps}>
+                        37% (20-37%) will be withheld for tax purposes. Unused funds will
+                        go back into the Lost Soul fund, and developing Experiments.
+                    </ListItem>
+                    <ListItem {...listCommonProps}>
+                        12% will go to the team.
+                    </ListItem>
+                    <ListItem {...listCommonProps}>
+                        46% will go into developing Experiments.
+                    </ListItem>
+                    <ListItem {...listCommonProps}>
+                        5% will go into the Lost Soul fund.
+                    </ListItem>
+                </UnorderedList>
+                <br />
+                <Text fontWeight="bold" {...commonProps}>
+                    Royalties:
+                </Text>
+                <Text>
+                    6%
+                </Text>
+                <UnorderedList>
+                    <ListItem {...listCommonProps}>
+                        3% will go to the Lost Soul fund
+                    </ListItem>
+                    <ListItem {...listCommonProps}>
+                        3% to team*
+                    </ListItem>
+                </UnorderedList>
+                <br />
+                <Text as='em'>
+                    * The team’s royalties will be used to cover income tax for wallets 
+                    to both The Lost Soul fund and the team wallet.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>

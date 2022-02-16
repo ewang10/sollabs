@@ -108,7 +108,6 @@ class SolMan extends Component {
                     <ListItem {...listCommonProps}>
                         2.5% to team*
                     </ListItem>
-
                 </UnorderedList>
                 <br />
                 <Text as='em'>
