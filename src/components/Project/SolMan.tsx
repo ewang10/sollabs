@@ -40,7 +40,7 @@ class SolMan extends Component {
                     The total supply?
                 </Text>
                 <Text>
-                    6,666.
+                    TBD.
                 </Text>
                 <br />
                 {/* <Text fontWeight="bold" {...commonProps}>
@@ -99,14 +99,14 @@ class SolMan extends Component {
                     Royalties:
                 </Text>
                 <Text>
-                    5%
+                    6%
                 </Text>
                 <UnorderedList>
                     <ListItem {...listCommonProps}>
-                        2.5% will go to the Lost Soul fund
+                        3% will go to the Lost Soul fund
                     </ListItem>
                     <ListItem {...listCommonProps}>
-                        2.5% to team*
+                        3% to team*
                     </ListItem>
                 </UnorderedList>
                 <br />

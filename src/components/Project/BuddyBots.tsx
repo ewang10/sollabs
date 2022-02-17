@@ -64,14 +64,15 @@ class BuddyBots extends Component {
                         Weekly lotto will be held for Buddy Bots holders.
                     </ListItem>
                     <ListItem {...listCommonProps}>
-                        10 Buddy Bots will be chosen for a chance to win 0.1 SOL per week
-                        (Must be <b><u>delisted</u></b>!)
-                    </ListItem>
-                    <ListItem {...listCommonProps}>
                         Buddy Bots will be cycled through until they have all been picked.
                     </ListItem>
                     <ListItem {...listCommonProps}>
-                        52 SOL will go into the lottery funded by Sol Labs mint launch.
+                        4 Buddy Bots will be chosen for a chance to win 0.1 SOL
+                        per week (Must be delisted!)
+                    </ListItem>
+                    <ListItem {...listCommonProps}>
+                        A portion of sales from Sol Labs mint launch will go into
+                        the lottery fund.
                     </ListItem>
                     <ListItem {...listCommonProps}>
                         There could be an increase of Buddy Bots participants per week based

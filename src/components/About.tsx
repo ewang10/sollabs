@@ -122,10 +122,6 @@ class About extends Component {
                     Utilities?
                 </Text>
                 <Text>
-                    10% accrued from each Experiment’s mint launch and 50% royalties earned
-                    will go into Lost Soul fund.
-                    <br />
-                    <br />
                     The type of utility holders have is based on the product attribute you
                     receive on your NFT. All Sol Labs NFT holders will be on the whitelist
                     for Sol Man.
@@ -182,17 +178,6 @@ class About extends Component {
                                 {" "} (Core Utility NFT).The value of this NFT will increase
                                 by 0.5 SOL with every project launch, including Experiment
                                 Projects and Test Projects.
-                                <br />
-                                <UnorderedList>
-                                    <ListItem {...listCommonProps}>
-                                        4 Buddy Bots will be chosen for a chance to win 0.1 SOL
-                                        per week (Must be delisted!)
-                                    </ListItem>
-                                    <ListItem {...listCommonProps}>
-                                        A portion of sales from Sol Labs mint launch will go into
-                                        the lottery fund.
-                                    </ListItem>
-                                </UnorderedList>
                             </Text>
                             <br />
                             <Text as="em">
@@ -202,46 +187,6 @@ class About extends Component {
                         </ListItem>
                     </List>
                 </Text>
-                <br />
-                <Text fontWeight="bold" {...commonProps}>
-                    Mint launch breakdown:
-                </Text>
-                <UnorderedList>
-                    <ListItem {...listCommonProps}>
-                        37% (20-37%) will be withheld for tax purposes. Unused funds will
-                        go back into the Lost Soul fund, and developing Experiments.
-                    </ListItem>
-                    <ListItem {...listCommonProps}>
-                        12% will go to the team.
-                    </ListItem>
-                    <ListItem {...listCommonProps}>
-                        46% will go into developing Experiments.
-                    </ListItem>
-                    <ListItem {...listCommonProps}>
-                        5% will go into the Lost Soul fund.
-                    </ListItem>
-                </UnorderedList>
-                <br />
-                <Text fontWeight="bold" {...commonProps}>
-                    Royalties:
-                </Text>
-                <Text>
-                    6%
-                </Text>
-                <UnorderedList>
-                    <ListItem {...listCommonProps}>
-                        3% will go to the Lost Soul fund
-                    </ListItem>
-                    <ListItem {...listCommonProps}>
-                        3% to team*
-                    </ListItem>
-                </UnorderedList>
-                <br />
-                <Text as='em'>
-                    * The team’s royalties will be used to cover income tax for wallets 
-                    to both The Lost Soul fund and the team wallet.
-                </Text>
-                <br />
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     What is an Experiment?
@@ -286,7 +231,7 @@ class About extends Component {
                     When is mint date?
                 </Text>
                 <Text>
-                    February 18th 2022 23:00 PST / 07:00 +1 UTC.
+                    February 18th 2022 20:30 PST / 04:30 +1 UTC.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
