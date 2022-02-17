@@ -127,7 +127,7 @@ class SolMan extends Component {
                 <br />
                 <br />
                 <Text align="left" {...commonProps}>
-                    6,666 lost souls escaped from our labs! They are wandering the world filled
+                    Lost souls have escaped from our labs. They are wandering the world filled
                     with regrets and we are here to fulfill their dreams! Help us resolve their
                     regrets and rest in peace.
                 </Text>
