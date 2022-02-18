@@ -99,14 +99,14 @@ class SolMan extends Component {
                     Royalties:
                 </Text>
                 <Text>
-                    6%
+                    8%
                 </Text>
                 <UnorderedList>
                     <ListItem {...listCommonProps}>
-                        3% will go to the Lost Soul fund
+                        4% will go to the Lost Soul fund
                     </ListItem>
                     <ListItem {...listCommonProps}>
-                        3% to team*
+                        4% to team*
                     </ListItem>
                 </UnorderedList>
                 <br />

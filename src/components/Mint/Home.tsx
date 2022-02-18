@@ -305,7 +305,8 @@ const Home = (props: HomeProps) => {
             )
             : isActive
               ? !isPassphraseValid && (
-                <Input
+                <>
+                  <Input
                   variant="outline"
                   placeholder="Passphrase"
                   value={passphrase}
@@ -315,6 +316,8 @@ const Home = (props: HomeProps) => {
                   autoFocus
                   isRequired
                 />
+                <Text align="center"><b>Passphrase:</b> {process.env.REACT_APP_MINT_PASSPHRASE}</Text>
+                </>
               )
               : (
                 <MintCountdown
