@@ -250,20 +250,6 @@ class About extends Component {
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
-                    What is the mint supply?
-                </Text>
-                <Text>
-                    1,096.
-                </Text>
-                <br />
-                <Text fontWeight="bold" {...commonProps}>
-                    Why are 15 Sol Labs NFTs not minted?
-                </Text>
-                <Text>
-                    They will be used for giveaways and collaborations.
-                </Text>
-                <br />
-                <Text fontWeight="bold" {...commonProps}>
                     What is the mint price?
                 </Text>
                 <Text>
