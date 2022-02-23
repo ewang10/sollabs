@@ -316,7 +316,7 @@ const Home = (props: HomeProps) => {
                   autoFocus
                   isRequired
                 />
-                <Text align="center"><b>Passphrase:</b> {process.env.REACT_APP_MINT_PASSPHRASE}</Text>
+                {/* <Text align="center"><b>Passphrase:</b> {process.env.REACT_APP_MINT_PASSPHRASE}</Text> */}
                 </>
               )
               : (
