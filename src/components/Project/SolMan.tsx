@@ -43,20 +43,20 @@ class SolMan extends Component {
                     TBD.
                 </Text>
                 <br />
-                {/* <Text fontWeight="bold" {...commonProps}>
+                <Text fontWeight="bold" {...commonProps}>
                     Mint price?
                 </Text>
                 <Text>
-                    0.666 SOL.
+                    0.5 SOL.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
                     Mint date?
                 </Text>
                 <Text>
-                    TBD.
+                    February 27th 2022 16:00 PST / 00:00 +1 UTC
                 </Text>
-                <br /> */}
+                <br />
                 <Text fontWeight="bold" {...commonProps}>
                     Utilities?
                 </Text>
@@ -111,7 +111,7 @@ class SolMan extends Component {
                 </UnorderedList>
                 <br />
                 <Text as='em'>
-                    * The team’s royalties will be used to cover income tax for wallets 
+                    * The team’s royalties will be used to cover income tax for wallets
                     to both The Lost Soul fund and the team wallet.
                 </Text>
                 <br />
