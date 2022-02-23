@@ -40,7 +40,7 @@ class SolMan extends Component {
                     The total supply?
                 </Text>
                 <Text>
-                    TBD.
+                    2,000.
                 </Text>
                 <br />
                 <Text fontWeight="bold" {...commonProps}>
