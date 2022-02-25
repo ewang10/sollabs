@@ -5,7 +5,7 @@ import BubbleBackground from "./BubbleBackgroud";
 const Home = () => (
     <BubbleBackground>
         <Flex justifyContent="center" alignItems="center" direction="column" height={{ base: "50vh", lg: "100vh" }} zIndex={100}>
-            <Text align="center" fontWeight="bold" fontSize={{ base: "5xl", lg: "6xl" }}>Sol Labs</Text>
+            <Text align="center" fontWeight="bold" fontSize={{ base: "5xl", lg: "6xl" }}>Sol Man</Text>
             <Text as='i' align="center" fontSize={{ base: "md", lg: "2xl" }} width={{ base: "350px", md: "600px" }}>
                 2,000 lost souls have escaped from our labs!!!
             </Text>
